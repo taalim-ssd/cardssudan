@@ -1,5 +1,6 @@
 import { useState } from "react";
 import SouthSudanStories from "../components/SouthSudanStories";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const Stories = () => {
   const [selectedStory, setSelectedStory] = useState<any>(null);
@@ -77,16 +78,18 @@ const Stories = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
-            <div className="h-96 rounded-lg overflow-hidden">
-              <img 
-                src="/lovable-uploads/3b82f5c3-1c9e-4d8c-9c28-c1ccbe7de77b.png" 
-                alt="Community gathering in South Sudan"
-                className="w-full h-full object-cover"
-                onError={(e) => {
-                  console.error('Failed to load featured story image');
-                  e.currentTarget.style.display = 'none';
-                }}
-              />
+            <div className="rounded-lg overflow-hidden">
+              <AspectRatio ratio={4 / 3}>
+                <img 
+                  src="/lovable-uploads/3b82f5c3-1c9e-4d8c-9c28-c1ccbe7de77b.png" 
+                  alt="Community gathering in South Sudan"
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    console.error('Failed to load featured story image');
+                    e.currentTarget.style.display = 'none';
+                  }}
+                />
+              </AspectRatio>
             </div>
             <div>
               <span className="text-emerald-600 font-medium">Featured Story</span>
@@ -126,7 +129,7 @@ const Stories = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {stories.map((story, index) => (
               <article key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="h-48">
+                <AspectRatio ratio={4 / 3}>
                   <img 
                     src={story.image} 
                     alt={story.title}
@@ -136,7 +139,7 @@ const Stories = () => {
                       e.currentTarget.style.display = 'none';
                     }}
                   />
-                </div>
+                </AspectRatio>
                 <div className="p-6">
                   <div className="flex items-center justify-between mb-3">
                     <span className="text-emerald-600 text-sm font-medium">{story.location}</span>
@@ -165,11 +168,13 @@ const Stories = () => {
         <div className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4">
           <div className="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto">
             <div className="relative">
-              <img 
-                src={selectedStory.image} 
-                alt={selectedStory.title}
-                className="w-full h-64 object-cover"
-              />
+              <AspectRatio ratio={4 / 3}>
+                <img 
+                  src={selectedStory.image} 
+                  alt={selectedStory.title}
+                  className="w-full h-full object-cover"
+                />
+              </AspectRatio>
               <button 
                 onClick={() => setSelectedStory(null)}
                 className="absolute top-4 right-4 bg-black bg-opacity-50 text-white rounded-full w-10 h-10 flex items-center justify-center hover:bg-opacity-75 transition-colors text-lg"
