@@ -2,9 +2,9 @@
 const ImageGallery = () => {
   const images = [
     {
-      src: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=400&h=300&fit=crop",
-      alt: "Sustainable farming practices",
-      category: "Agriculture"
+      src: "/lovable-uploads/9cfed559-6e00-4c70-9738-a698dfc629ec.png",
+      alt: "Agricultural surveying and planning",
+      category: "Technical Training"
     },
     {
       src: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400&h=300&fit=crop",
@@ -12,9 +12,9 @@ const ImageGallery = () => {
       category: "Food Security"
     },
     {
-      src: "https://images.unsplash.com/photo-1595437193398-f24279553ca0?w=400&h=300&fit=crop",
-      alt: "Organic vegetable garden",
-      category: "Nutrition"
+      src: "/lovable-uploads/a021a960-9509-4547-860c-69682c6adc9e.png",
+      alt: "Field measurement and assessment",
+      category: "Agricultural Planning"
     },
     {
       src: "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=400&h=300&fit=crop",
@@ -22,9 +22,9 @@ const ImageGallery = () => {
       category: "Crop Production"
     },
     {
-      src: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop",
-      alt: "Wheat field harvest",
-      category: "Grain Production"
+      src: "/lovable-uploads/5d36f115-30a2-4b2a-b2d9-ebccbb46c7d0.png",
+      alt: "Agricultural land surveying",
+      category: "Land Management"
     },
     {
       src: "https://images.unsplash.com/photo-1592419443411-cbdf67c3db0a?w=400&h=300&fit=crop",

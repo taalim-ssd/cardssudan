@@ -11,9 +11,9 @@ const Index = () => {
       <section className="relative bg-gradient-to-r from-emerald-800 to-emerald-600 text-white py-20">
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div 
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center opacity-70"
           style={{
-            backgroundImage: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=1920&h=1080&fit=crop"
+            backgroundImage: "url('/lovable-uploads/3b82f5c3-1c9e-4d8c-9c28-c1ccbe7de77b.png')"
           }}
         ></div>
         <div className="relative container mx-auto px-4 text-center">

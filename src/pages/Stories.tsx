@@ -7,37 +7,37 @@ const Stories = () => {
       title: "From Food Insecurity to Agricultural Success",
       location: "Juba, South Sudan",
       summary: "How drought-resistant seeds and training transformed a community's food security",
-      image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/2a687e30-1baa-434c-a933-2cde06dae39f.png"
     },
     {
       title: "Women's Cooperative Feeds the Community",
       location: "Yei County",
       summary: "Female farmers unite to share resources and knowledge, tripling vegetable production",
-      image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/ddb90a65-09c6-4d66-8e47-167f6bd19c6b.png"
     },
     {
       title: "Youth Return to Farming",
       location: "Torit, Eastern Equatoria",
       summary: "Modern agricultural techniques attract young people back to sustainable farming",
-      image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/c492242c-94f0-490c-82c6-288564a363f4.png"
     },
     {
       title: "Solar-Powered Irrigation Success",
       location: "Wau, Western Bahr el Ghazal",
       summary: "Renewable energy solution enables year-round farming in drought-prone areas",
-      image: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/a1d51629-89a7-4160-bbc2-c3b75b2725f9.png"
     },
     {
       title: "Livestock Health Program Impact",
       location: "Warrap State",
       summary: "Mobile veterinary services save cattle and improve food security for pastoralists",
-      image: "https://images.unsplash.com/photo-1586771107045-b791e006b42a?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/bf7c1f2b-d2d4-4b03-a108-f223289776fe.png"
     },
     {
       title: "Market Access Transforms Lives",
       location: "Nimule, Central Equatoria",
       summary: "Direct market linkages help farmers get fair prices for their produce",
-      image: "https://images.unsplash.com/photo-1566754089908-ac581afe4b96?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/6ec63915-221d-4322-9674-b06712028084.png"
     }
   ];
 
@@ -59,8 +59,8 @@ const Stories = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="h-96 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1594736797933-d0c19e8a7d93?w=600&h=400&fit=crop" 
-                alt="Farmers in field"
+                src="/lovable-uploads/3b82f5c3-1c9e-4d8c-9c28-c1ccbe7de77b.png" 
+                alt="Community gathering in South Sudan"
                 className="w-full h-full object-cover"
               />
             </div>
