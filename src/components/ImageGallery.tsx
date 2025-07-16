@@ -7,9 +7,9 @@ const ImageGallery = () => {
       category: "Technical Training"
     },
     {
-      src: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400&h=300&fit=crop",
-      alt: "Corn harvest season",
-      category: "Food Security"
+      src: "/lovable-uploads/704d4949-6a97-4f68-b782-465dd3a9e61e.png",
+      alt: "Community engagement and training",
+      category: "Community Development"
     },
     {
       src: "/lovable-uploads/a021a960-9509-4547-860c-69682c6adc9e.png",
@@ -17,9 +17,9 @@ const ImageGallery = () => {
       category: "Agricultural Planning"
     },
     {
-      src: "https://images.unsplash.com/photo-1500595046743-cd271d694d30?w=400&h=300&fit=crop",
-      alt: "Rice paddy fields",
-      category: "Crop Production"
+      src: "/lovable-uploads/18065890-ca1d-417c-8a2f-812b97eb3c3f.png",
+      alt: "Rural community meetings",
+      category: "Community Engagement"
     },
     {
       src: "/lovable-uploads/5d36f115-30a2-4b2a-b2d9-ebccbb46c7d0.png",
@@ -27,39 +27,39 @@ const ImageGallery = () => {
       category: "Land Management"
     },
     {
-      src: "https://images.unsplash.com/photo-1592419443411-cbdf67c3db0a?w=400&h=300&fit=crop",
-      alt: "Tomato cultivation",
-      category: "Horticulture"
+      src: "/lovable-uploads/e200fbed-1014-4ab9-ab6e-8d76106dd2be.png",
+      alt: "Agricultural land preparation",
+      category: "Farming Techniques"
     },
     {
-      src: "https://images.unsplash.com/photo-1566754089908-ac581afe4b96?w=400&h=300&fit=crop",
-      alt: "Fresh produce market",
-      category: "Market Access"
+      src: "/lovable-uploads/b365df88-4601-4cf3-99ce-8900d5aa39fa.png",
+      alt: "Community agricultural projects",
+      category: "Rural Development"
     },
     {
-      src: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?w=400&h=300&fit=crop",
-      alt: "Seed planting techniques",
-      category: "Farming Methods"
+      src: "/lovable-uploads/7e77a94c-07f5-450c-a535-0fe58e161bd9.png",
+      alt: "Land surveying and planning",
+      category: "Technical Services"
     },
     {
-      src: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=400&h=300&fit=crop",
-      alt: "Irrigation systems",
-      category: "Water Management"
+      src: "/lovable-uploads/dfcb6968-46d0-4bca-b81a-55af1420d366.png",
+      alt: "Agricultural measurement techniques",
+      category: "Field Assessment"
     },
     {
-      src: "https://images.unsplash.com/photo-1586771107045-b791e006b42a?w=400&h=300&fit=crop",
-      alt: "Livestock farming",
-      category: "Animal Husbandry"
+      src: "/lovable-uploads/0a381cab-b666-4974-bf27-76f88701ecec.png",
+      alt: "Peace building and community development",
+      category: "Community Programs"
     },
     {
-      src: "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=400&h=300&fit=crop",
-      alt: "Greenhouse farming",
-      category: "Protected Agriculture"
+      src: "/lovable-uploads/ffb0784f-027e-4b2e-bd2f-11698e0250fb.png",
+      alt: "Professional agricultural training",
+      category: "Skills Development"
     },
     {
-      src: "https://images.unsplash.com/photo-1623123616913-2c2b13511203?w=400&h=300&fit=crop",
-      alt: "Farmers training session",
-      category: "Capacity Building"
+      src: "/lovable-uploads/d3a7f42f-f187-419a-9a1c-4be4b201a37f.png",
+      alt: "Youth engagement in agriculture",
+      category: "Youth Training"
     }
   ];
 

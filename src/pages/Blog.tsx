@@ -6,63 +6,63 @@ const Blog = () => {
       date: "March 15, 2024",
       category: "Agriculture",
       excerpt: "How sorghum and millet varieties are helping farmers survive extended dry seasons",
-      image: "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/e200fbed-1014-4ab9-ab6e-8d76106dd2be.png"
     },
     {
       title: "Women Leading Food Security in Rural Communities",
       date: "March 10, 2024",
       category: "Food Security",
       excerpt: "Female farmers drive innovation in vegetable production and nutrition education",
-      image: "https://images.unsplash.com/photo-1594736797933-d0c19e8a7d93?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/18065890-ca1d-417c-8a2f-812b97eb3c3f.png"
     },
     {
       title: "Solar-Powered Agriculture: Farming in the 21st Century",
       date: "March 5, 2024",
       category: "Technology",
       excerpt: "How renewable energy is revolutionizing irrigation and food processing",
-      image: "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/b365df88-4601-4cf3-99ce-8900d5aa39fa.png"
     },
     {
       title: "Post-Harvest Losses: Solutions That Work",
       date: "February 28, 2024",
       category: "Storage",
       excerpt: "Innovative storage techniques reduce crop waste by up to 80%",
-      image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/7e77a94c-07f5-450c-a535-0fe58e161bd9.png"
     },
     {
       title: "Livestock Health: Protecting Community Assets",
       date: "February 22, 2024",
       category: "Animal Husbandry",
       excerpt: "Mobile veterinary services ensure healthy cattle and sustainable livelihoods",
-      image: "https://images.unsplash.com/photo-1586771107045-b791e006b42a?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/dfcb6968-46d0-4bca-b81a-55af1420d366.png"
     },
     {
       title: "Market Linkages: Connecting Farmers to Buyers",
       date: "February 15, 2024",
       category: "Economics",
       excerpt: "Direct market access increases farmer income by 200%",
-      image: "https://images.unsplash.com/photo-1566754089908-ac581afe4b96?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/ffb0784f-027e-4b2e-bd2f-11698e0250fb.png"
     },
     {
       title: "Nutrition Gardens: Growing Health at Home",
       date: "February 10, 2024",
       category: "Nutrition",
       excerpt: "Kitchen gardens provide families with year-round access to vitamins and minerals",
-      image: "https://images.unsplash.com/photo-1595437193398-f24279553ca0?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/d3a7f42f-f187-419a-9a1c-4be4b201a37f.png"
     },
     {
       title: "Youth in Agriculture: The Future of Farming",
       date: "February 5, 2024",
       category: "Youth",
       excerpt: "Training programs attract young people to modern agricultural careers",
-      image: "https://images.unsplash.com/photo-1623123616913-2c2b13511203?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/0a381cab-b666-4974-bf27-76f88701ecec.png"
     },
     {
       title: "Water Management: Every Drop Counts",
       date: "January 30, 2024",
       category: "Water",
       excerpt: "Efficient irrigation systems maximize crop yields with minimal water use",
-      image: "https://images.unsplash.com/photo-1551818255-e6e10975cd17?w=400&h=300&fit=crop"
+      image: "/lovable-uploads/dfdcc7b8-d2f2-4c31-9fde-befb2fae0326.png"
     }
   ];
 
@@ -84,8 +84,8 @@ const Blog = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="h-96 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=600&h=400&fit=crop" 
-                alt="Sustainable farming"
+                src="/lovable-uploads/704d4949-6a97-4f68-b782-465dd3a9e61e.png" 
+                alt="Community engagement and training"
                 className="w-full h-full object-cover"
               />
             </div>
