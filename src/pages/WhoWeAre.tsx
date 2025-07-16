@@ -110,7 +110,7 @@ const WhoWeAre = () => {
                 <img 
                   src="/lovable-uploads/ca9d0e12-7c58-4ab8-85bd-212bd29f787e.png" 
                   alt="Jemimah Lomongin" 
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                 />
               </div>
               <h3 className="text-xl font-semibold mb-2">Jemimah Lomongin</h3>
