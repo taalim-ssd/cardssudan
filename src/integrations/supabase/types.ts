@@ -120,6 +120,7 @@ export type Database = {
           excerpt: string | null
           featured_image_url: string | null
           id: string
+          image_storage_path: string | null
           is_featured: boolean | null
           published_date: string
           slug: string
@@ -134,6 +135,7 @@ export type Database = {
           excerpt?: string | null
           featured_image_url?: string | null
           id?: string
+          image_storage_path?: string | null
           is_featured?: boolean | null
           published_date?: string
           slug: string
@@ -148,6 +150,7 @@ export type Database = {
           excerpt?: string | null
           featured_image_url?: string | null
           id?: string
+          image_storage_path?: string | null
           is_featured?: boolean | null
           published_date?: string
           slug?: string
@@ -398,6 +401,42 @@ export type Database = {
           },
         ]
       }
+      gallery_images: {
+        Row: {
+          alt_text: string
+          category: string
+          created_at: string
+          display_order: number | null
+          id: string
+          location: string | null
+          storage_path: string
+          story: string | null
+          updated_at: string
+        }
+        Insert: {
+          alt_text: string
+          category: string
+          created_at?: string
+          display_order?: number | null
+          id?: string
+          location?: string | null
+          storage_path: string
+          story?: string | null
+          updated_at?: string
+        }
+        Update: {
+          alt_text?: string
+          category?: string
+          created_at?: string
+          display_order?: number | null
+          id?: string
+          location?: string | null
+          storage_path?: string
+          story?: string | null
+          updated_at?: string
+        }
+        Relationships: []
+      }
       media_files: {
         Row: {
           alt_text: string | null
@@ -567,6 +606,7 @@ export type Database = {
           created_at: string
           featured_image_url: string | null
           id: string
+          image_storage_path: string | null
           is_featured: boolean | null
           location: string | null
           published_date: string
@@ -580,6 +620,7 @@ export type Database = {
           created_at?: string
           featured_image_url?: string | null
           id?: string
+          image_storage_path?: string | null
           is_featured?: boolean | null
           location?: string | null
           published_date?: string
@@ -593,6 +634,7 @@ export type Database = {
           created_at?: string
           featured_image_url?: string | null
           id?: string
+          image_storage_path?: string | null
           is_featured?: boolean | null
           location?: string | null
           published_date?: string
