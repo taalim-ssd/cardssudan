@@ -1,6 +1,6 @@
 
-import { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { Link, useNavigate } from "react-router-dom";
 import { ChevronDown } from "lucide-react";
 import {
   NavigationMenu,
@@ -13,13 +13,19 @@ import {
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const handleMenuItemClick = (path: string) => {
+    setIsOpen(false);
+    navigate(path);
+  };
 
   return (
     <header className="bg-emerald-800 text-white shadow-lg">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-2" onClick={() => setIsOpen(false)}>
             <div className="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-sm">C</span>
             </div>
@@ -27,7 +33,7 @@ const Navigation = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:block">
+          <div className="hidden lg:block">{/* Navigation content stays the same */}
             <NavigationMenu>
               <NavigationMenuList className="space-x-1">
                 <NavigationMenuItem>
@@ -251,13 +257,14 @@ const Navigation = () => {
 
           {/* Mobile menu button */}
           <button
-            className="lg:hidden p-2 hover:bg-emerald-700 rounded"
+            className="lg:hidden p-2 hover:bg-emerald-700 rounded transition-colors"
             onClick={() => setIsOpen(!isOpen)}
+            aria-label="Toggle mobile menu"
           >
             <div className="w-6 h-6 flex flex-col justify-center space-y-1">
-              <div className="w-full h-0.5 bg-white"></div>
-              <div className="w-full h-0.5 bg-white"></div>
-              <div className="w-full h-0.5 bg-white"></div>
+              <div className={`w-full h-0.5 bg-white transition-transform ${isOpen ? 'rotate-45 translate-y-1.5' : ''}`}></div>
+              <div className={`w-full h-0.5 bg-white transition-opacity ${isOpen ? 'opacity-0' : ''}`}></div>
+              <div className={`w-full h-0.5 bg-white transition-transform ${isOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></div>
             </div>
           </button>
         </div>
@@ -266,14 +273,14 @@ const Navigation = () => {
         {isOpen && (
           <div className="lg:hidden py-4 border-t border-emerald-700">
             <div className="space-y-2">
-              <Link to="/" className="block px-4 py-2 hover:bg-emerald-700 rounded">Home</Link>
-              <Link to="/who-we-are" className="block px-4 py-2 hover:bg-emerald-700 rounded">Who We Are</Link>
-              <Link to="/what-we-do" className="block px-4 py-2 hover:bg-emerald-700 rounded">What We Do</Link>
-              <Link to="/where-we-work" className="block px-4 py-2 hover:bg-emerald-700 rounded">Where We Work</Link>
-              <Link to="/stories" className="block px-4 py-2 hover:bg-emerald-700 rounded">Stories</Link>
-              <Link to="/blog" className="block px-4 py-2 hover:bg-emerald-700 rounded">Blog</Link>
-              <Link to="/get-involved" className="block px-4 py-2 hover:bg-emerald-700 rounded">Get Involved</Link>
-              <Link to="/contact" className="block px-4 py-2 hover:bg-emerald-700 rounded">Contact</Link>
+              <button onClick={() => handleMenuItemClick("/")} className="block w-full text-left px-4 py-2 hover:bg-emerald-700 rounded">Home</button>
+              <button onClick={() => handleMenuItemClick("/who-we-are")} className="block w-full text-left px-4 py-2 hover:bg-emerald-700 rounded">Who We Are</button>
+              <button onClick={() => handleMenuItemClick("/what-we-do")} className="block w-full text-left px-4 py-2 hover:bg-emerald-700 rounded">What We Do</button>
+              <button onClick={() => handleMenuItemClick("/where-we-work")} className="block w-full text-left px-4 py-2 hover:bg-emerald-700 rounded">Where We Work</button>
+              <button onClick={() => handleMenuItemClick("/stories")} className="block w-full text-left px-4 py-2 hover:bg-emerald-700 rounded">Stories</button>
+              <button onClick={() => handleMenuItemClick("/blog")} className="block w-full text-left px-4 py-2 hover:bg-emerald-700 rounded">Blog</button>
+              <button onClick={() => handleMenuItemClick("/get-involved")} className="block w-full text-left px-4 py-2 hover:bg-emerald-700 rounded">Get Involved</button>
+              <button onClick={() => handleMenuItemClick("/contact")} className="block w-full text-left px-4 py-2 hover:bg-emerald-700 rounded">Contact</button>
             </div>
           </div>
         )}
