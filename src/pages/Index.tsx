@@ -78,14 +78,14 @@ const Index = () => {
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-emerald-500">
               <div className="h-48 mb-4 rounded-lg overflow-hidden">
                 <img 
-                  src="/lovable-uploads/76774f51-468d-46a9-9756-e9a1ee2ce1e3.png" 
-                  alt="Agricultural Development"
+                  src="/lovable-uploads/b972445d-ae0b-4a40-99c1-d7cd9c2962f2.png" 
+                  alt="Community-driven agricultural development and water infrastructure in South Sudan"
                   className="w-full h-full object-cover"
                 />
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3">Agricultural Development</h3>
               <p className="text-gray-600 mb-4">
-                Supporting farmers with sustainable practices, modern techniques, and market access
+                Community members actively participate in infrastructure development combining agricultural training with water access initiatives
               </p>
               <Link to="/what-we-do" className="text-emerald-600 hover:text-emerald-800 font-medium">
                 Learn More →

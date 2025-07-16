@@ -182,14 +182,14 @@ const WhatWeDo = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="h-48">
                 <img 
-                  src="/lovable-uploads/989143b2-4bef-44dd-af20-72164ae91801.png" 
-                  alt="Water and sanitation programs"
+                  src="/lovable-uploads/5d2017ce-b48b-4324-a195-b5d40538fd4a.png" 
+                  alt="Community water infrastructure development project in Lowi Simon, Kapoeta East"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-800 mb-3">Water & Sanitation</h3>
-                <p className="text-gray-600 mb-4">Clean water access and sanitation facilities for rural communities</p>
+                <p className="text-gray-600 mb-4">Community-led water infrastructure development in Lowi Simon village, Kapoeta East County</p>
                 <ul className="text-sm text-gray-600 space-y-1">
                   <li>• Borehole drilling and maintenance</li>
                   <li>• Water point management training</li>

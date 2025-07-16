@@ -79,17 +79,17 @@ const WhereWeWork = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div className="h-64 sm:h-80 lg:h-96 rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="/lovable-uploads/989143b2-4bef-44dd-af20-72164ae91801.png" 
-                  alt="Community engagement in South Sudan"
+                  src="/lovable-uploads/058ca8b1-2575-4677-8e49-f3cce249d0b0.png" 
+                  alt="Agricultural development training and community participation in Kapoeta East"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />
               </div>
               <div className="space-y-4 sm:space-y-6">
                 <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800">Kapoeta East County</h3>
                 <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed">
-                  Our flagship program location where we've been working for over 10 years in Eastern Equatoria State. 
-                  This region has seen remarkable transformation in agricultural productivity, water access, 
-                  and community health outcomes through our comprehensive development programs.
+                  Active community participation in agricultural development and infrastructure projects in Kapoeta East County. 
+                  Local community members engage in hands-on training and collaborative work sessions that build both 
+                  technical skills and strengthen community bonds for sustainable development outcomes.
                 </p>
                 <div className="space-y-2 sm:space-y-3 text-sm sm:text-base lg:text-lg text-gray-700">
                   <p><strong>Focus Areas:</strong> Water Distribution, Agriculture, Community Development</p>
