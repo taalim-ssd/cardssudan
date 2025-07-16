@@ -78,7 +78,7 @@ const WhoWeAre = () => {
           <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Our Leadership Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden">
+              <div className="w-64 h-48 mx-auto mb-4 overflow-hidden rounded-lg shadow-lg">
                 <img 
                   src="/lovable-uploads/1c6a16b6-2d75-43d7-947f-1ee7664f8eb5.png" 
                   alt="Alphonse Lotunyeny" 
@@ -92,7 +92,7 @@ const WhoWeAre = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden">
+              <div className="w-64 h-48 mx-auto mb-4 overflow-hidden rounded-lg shadow-lg">
                 <img 
                   src="/lovable-uploads/2372c380-1e7f-4e91-8b2f-1c76730ac09c.png" 
                   alt="Emmy Lonyia" 
@@ -106,7 +106,7 @@ const WhoWeAre = () => {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden">
+              <div className="w-64 h-48 mx-auto mb-4 overflow-hidden rounded-lg shadow-lg">
                 <img 
                   src="/lovable-uploads/ca9d0e12-7c58-4ab8-85bd-212bd29f787e.png" 
                   alt="Jemimah Lomongin" 
