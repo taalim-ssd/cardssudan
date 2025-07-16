@@ -78,27 +78,45 @@ const WhoWeAre = () => {
           <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Our Leadership Team</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-32 h-32 bg-emerald-200 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold mb-2">Dr. Sarah Johnson</h3>
+              <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden">
+                <img 
+                  src="/lovable-uploads/1c6a16b6-2d75-43d7-947f-1ee7664f8eb5.png" 
+                  alt="Alphonse Lotunyeny" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Alphonse Lotunyeny</h3>
               <p className="text-emerald-600 mb-2">Executive Director</p>
               <p className="text-gray-600 text-sm">
-                25+ years in rural development with expertise in sustainable agriculture
+                Leading rural development initiatives with expertise in community empowerment and sustainable agricultural practices
               </p>
             </div>
             <div className="text-center">
-              <div className="w-32 h-32 bg-emerald-200 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold mb-2">Michael Chen</h3>
-              <p className="text-emerald-600 mb-2">Program Director</p>
+              <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden">
+                <img 
+                  src="/lovable-uploads/2372c380-1e7f-4e91-8b2f-1c76730ac09c.png" 
+                  alt="Emmy Lonyia" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Emmy Lonyia</h3>
+              <p className="text-emerald-600 mb-2">Program Manager</p>
               <p className="text-gray-600 text-sm">
-                Expert in community engagement and capacity building programs
+                Coordinating programs and ensuring effective implementation of development projects across farming and pastoralist communities
               </p>
             </div>
             <div className="text-center">
-              <div className="w-32 h-32 bg-emerald-200 rounded-full mx-auto mb-4"></div>
-              <h3 className="text-xl font-semibold mb-2">Maria Rodriguez</h3>
-              <p className="text-emerald-600 mb-2">Operations Director</p>
+              <div className="w-32 h-32 rounded-full mx-auto mb-4 overflow-hidden">
+                <img 
+                  src="/lovable-uploads/ca9d0e12-7c58-4ab8-85bd-212bd29f787e.png" 
+                  alt="Jemimah Lomongin" 
+                  className="w-full h-full object-cover"
+                />
+              </div>
+              <h3 className="text-xl font-semibold mb-2">Jemimah Lomongin</h3>
+              <p className="text-emerald-600 mb-2">FSL Officer</p>
               <p className="text-gray-600 text-sm">
-                Specialist in healthcare access and education initiatives
+                Specialist in Food Security and Livelihoods programs, working directly with farmers and pastoralists to improve food security
               </p>
             </div>
           </div>
