@@ -78,7 +78,7 @@ const Index = () => {
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-emerald-500">
               <div className="h-48 mb-4 rounded-lg overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=400&h=300&fit=crop" 
+                  src="/lovable-uploads/76774f51-468d-46a9-9756-e9a1ee2ce1e3.png" 
                   alt="Agricultural Development"
                   className="w-full h-full object-cover"
                 />
@@ -94,7 +94,7 @@ const Index = () => {
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-emerald-500">
               <div className="h-48 mb-4 rounded-lg overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=400&h=300&fit=crop" 
+                  src="/lovable-uploads/7125d47e-f8b6-4ce7-b455-a0ec9c418627.png" 
                   alt="Food Security"
                   className="w-full h-full object-cover"
                 />
@@ -110,7 +110,7 @@ const Index = () => {
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-emerald-500">
               <div className="h-48 mb-4 rounded-lg overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1560493676-04071c5f467b?w=400&h=300&fit=crop" 
+                  src="/lovable-uploads/1cdb20c3-b72d-4410-8367-447669cac1d3.png" 
                   alt="Capacity Building"
                   className="w-full h-full object-cover"
                 />

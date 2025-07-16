@@ -48,8 +48,8 @@ const WhatWeDo = () => {
             </div>
             <div className="h-96 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?w=600&h=400&fit=crop" 
-                alt="Sustainable farming in South Sudan"
+                src="/lovable-uploads/28a14471-0cd0-458a-a3d7-acc4378ce4b1.png" 
+                alt="Agricultural development work in South Sudan"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -58,8 +58,8 @@ const WhatWeDo = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="h-96 rounded-lg overflow-hidden lg:order-1">
               <img 
-                src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=600&h=400&fit=crop" 
-                alt="Agricultural training session in South Sudan"
+                src="/lovable-uploads/e5975fb9-cf6a-468a-bfa3-bf4cc9795823.png" 
+                alt="Education and training session in South Sudan"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -126,8 +126,8 @@ const WhatWeDo = () => {
             </div>
             <div className="h-96 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?w=600&h=400&fit=crop" 
-                alt="Food security programs in South Sudan"
+                src="/lovable-uploads/7125d47e-f8b6-4ce7-b455-a0ec9c418627.png" 
+                alt="Food security and nutrition programs in South Sudan"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -136,8 +136,8 @@ const WhatWeDo = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="h-96 rounded-lg overflow-hidden lg:order-1">
               <img 
-                src="https://images.unsplash.com/photo-1586771107045-b791e006b42a?w=600&h=400&fit=crop" 
-                alt="Livestock programs in South Sudan"
+                src="/lovable-uploads/5d0a4f3a-1e7b-4c5c-8609-a8b8ad2bf573.png" 
+                alt="Livestock and pastoralism programs in South Sudan"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -182,8 +182,8 @@ const WhatWeDo = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="h-48">
                 <img 
-                  src="https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?w=400&h=300&fit=crop" 
-                  alt="Water management systems"
+                  src="/lovable-uploads/989143b2-4bef-44dd-af20-72164ae91801.png" 
+                  alt="Water and sanitation programs"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -201,8 +201,8 @@ const WhatWeDo = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="h-48">
                 <img 
-                  src="https://images.unsplash.com/photo-1566754089908-ac581afe4b96?w=400&h=300&fit=crop" 
-                  alt="Market access programs"
+                  src="/lovable-uploads/95428baa-b2f2-42dc-a222-56d36f1f1c14.png" 
+                  alt="Community market access programs"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -220,8 +220,8 @@ const WhatWeDo = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="h-48">
                 <img 
-                  src="https://images.unsplash.com/photo-1623123616913-2c2b13511203?w=400&h=300&fit=crop" 
-                  alt="Capacity building programs"
+                  src="/lovable-uploads/e24492a5-4a03-4120-b42e-d5dd236858c5.png" 
+                  alt="Capacity building and community training programs"
                   className="w-full h-full object-cover"
                 />
               </div>

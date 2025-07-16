@@ -68,7 +68,13 @@ const WhereWeWork = () => {
           <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Featured Locations</h2>
           <div className="space-y-12">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-              <div className="h-64 bg-emerald-200 rounded-lg"></div>
+              <div className="h-64 rounded-lg overflow-hidden">
+                <img 
+                  src="/lovable-uploads/989143b2-4bef-44dd-af20-72164ae91801.png" 
+                  alt="Community engagement in South Sudan"
+                  className="w-full h-full object-cover"
+                />
+              </div>
               <div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">Green Valley Region</h3>
                 <p className="text-gray-600 mb-4">
@@ -98,7 +104,13 @@ const WhereWeWork = () => {
                   <p><strong>Population:</strong> 8,200 people</p>
                 </div>
               </div>
-              <div className="h-64 bg-emerald-200 rounded-lg lg:order-1"></div>
+              <div className="h-64 rounded-lg overflow-hidden lg:order-1">
+                <img 
+                  src="/lovable-uploads/9bec6d44-5bfe-4c63-aaa4-3e3de495e60e.png" 
+                  alt="Community meetings and engagement"
+                  className="w-full h-full object-cover"
+                />
+              </div>
             </div>
           </div>
         </div>
