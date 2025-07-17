@@ -26,10 +26,11 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2" onClick={() => setIsOpen(false)}>
-            <div className="w-8 h-8 bg-emerald-500 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">C</span>
-            </div>
-            <div className="text-xl font-bold">CARD</div>
+            <img 
+              src="/lovable-uploads/b6c0b34a-9d58-4849-82bf-aeb359fe8bb1.png" 
+              alt="CARD Logo" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Navigation */}
