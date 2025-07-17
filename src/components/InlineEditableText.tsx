@@ -53,8 +53,6 @@ export const InlineEditableText = ({
           page_path: pagePath,
           content_type: 'text',
           content_data: { text }
-        }, {
-          onConflict: 'key,page_path'
         });
 
       if (error) throw error;
