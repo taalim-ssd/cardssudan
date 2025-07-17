@@ -23,7 +23,7 @@ const Navigation = () => {
   return (
     <header className="bg-emerald-800 text-white shadow-lg">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2" onClick={() => setIsOpen(false)}>
             <img 
@@ -34,7 +34,7 @@ const Navigation = () => {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:block">{/* Navigation content stays the same */}
+          <div className="hidden lg:block ml-8">{/* Navigation content stays the same */}
             <NavigationMenu>
               <NavigationMenuList className="space-x-1">
                 <NavigationMenuItem>
