@@ -47,7 +47,7 @@ const Navigation = () => {
                     Who We Are
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-64 p-4 bg-white">
+                    <div className="w-screen max-w-screen-xl mx-auto p-4 bg-white">
                       <NavigationMenuLink asChild>
                         <Link to="/who-we-are" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
                           About CARD
@@ -77,7 +77,7 @@ const Navigation = () => {
                     What We Do
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-64 p-4 bg-white">
+                    <div className="w-screen max-w-screen-xl mx-auto p-4 bg-white">
                       <NavigationMenuLink asChild>
                         <Link to="/what-we-do" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
                           Agricultural Development
@@ -107,7 +107,7 @@ const Navigation = () => {
                     Where We Work
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-64 p-4 bg-white">
+                    <div className="w-screen max-w-screen-xl mx-auto p-4 bg-white">
                       <NavigationMenuLink asChild>
                         <Link to="/where-we-work" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
                           South Sudan Overview
@@ -137,7 +137,7 @@ const Navigation = () => {
                     Stories
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-64 p-4 bg-white">
+                    <div className="w-screen max-w-screen-xl mx-auto p-4 bg-white">
                       <NavigationMenuLink asChild>
                         <Link to="/stories" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
                           Success Stories
@@ -167,7 +167,7 @@ const Navigation = () => {
                     Blog
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-64 p-4 bg-white">
+                    <div className="w-screen max-w-screen-xl mx-auto p-4 bg-white">
                       <NavigationMenuLink asChild>
                         <Link to="/blog" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
                           Latest News
@@ -197,7 +197,7 @@ const Navigation = () => {
                     Get Involved
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-64 p-4 bg-white">
+                    <div className="w-screen max-w-screen-xl mx-auto p-4 bg-white">
                       <NavigationMenuLink asChild>
                         <Link to="/get-involved" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
                           Volunteer Opportunities
@@ -227,7 +227,7 @@ const Navigation = () => {
                     Contact
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-64 p-4 bg-white">
+                    <div className="w-screen max-w-screen-xl mx-auto p-4 bg-white">
                       <NavigationMenuLink asChild>
                         <Link to="/contact" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
                           Contact Information
