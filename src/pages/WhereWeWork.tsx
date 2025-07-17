@@ -8,8 +8,8 @@ const WhereWeWork = () => {
       {/* Page Header */}
       <section className="bg-emerald-800 text-white py-12 sm:py-16 lg:py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4">Where We Work</h1>
-          <p className="text-lg sm:text-xl lg:text-2xl max-w-3xl">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold mb-4 animate-slide-in-left">Where We Work</h1>
+          <p className="text-lg sm:text-xl lg:text-2xl max-w-3xl animate-slide-in-right [animation-delay:0.2s]">
             Our programs span across rural regions, bringing sustainable development to communities that need it most
           </p>
         </div>
@@ -19,8 +19,8 @@ const WhereWeWork = () => {
       <section className="py-12 sm:py-16 lg:py-20">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-8 sm:mb-12 lg:mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-4">Our Reach</h2>
-            <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 mb-4 animate-slide-in-left">Our Reach</h2>
+            <p className="text-lg sm:text-xl lg:text-2xl text-gray-600 max-w-2xl mx-auto animate-slide-in-right [animation-delay:0.3s]">
               We work in remote and underserved rural areas across multiple regions in South Sudan
             </p>
           </div>
@@ -74,7 +74,7 @@ const WhereWeWork = () => {
       {/* Featured Locations */}
       <section className="py-12 sm:py-16 lg:py-20 bg-emerald-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-gray-800 mb-8 sm:mb-12 lg:mb-16">Featured Locations</h2>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center text-gray-800 mb-8 sm:mb-12 lg:mb-16 animate-slide-in-left">Featured Locations</h2>
           <div className="space-y-12 sm:space-y-16 lg:space-y-20">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div className="h-64 sm:h-80 lg:h-96 rounded-lg overflow-hidden shadow-lg">
@@ -85,8 +85,8 @@ const WhereWeWork = () => {
                 />
               </div>
               <div className="space-y-4 sm:space-y-6">
-                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800">Kapoeta East County</h3>
-                <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed">
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 animate-slide-in-right [animation-delay:0.2s]">Kapoeta East County</h3>
+                <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed animate-fade-slide-up [animation-delay:0.4s]">
                   Active community participation in agricultural development and infrastructure projects in Kapoeta East County. 
                   Local community members engage in hands-on training and collaborative work sessions that build both 
                   technical skills and strengthen community bonds for sustainable development outcomes.
@@ -102,7 +102,7 @@ const WhereWeWork = () => {
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div className="lg:order-2 space-y-4 sm:space-y-6">
-                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800">Central Equatoria Programs</h3>
+                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-800 animate-slide-in-left [animation-delay:0.2s]">Central Equatoria Programs</h3>
                 <p className="text-base sm:text-lg lg:text-xl text-gray-600 leading-relaxed">
                   Expanding our reach to Central Equatoria State, focusing on food security and resilience building. 
                   We're working with local leaders to develop sustainable infrastructure and emergency response systems 

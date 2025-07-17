@@ -5,8 +5,8 @@ const WhatWeDo = () => {
       {/* Page Header */}
       <section className="bg-emerald-800 text-white py-16">
         <div className="container mx-auto px-4">
-          <h1 className="text-5xl font-bold mb-4">What We Do</h1>
-          <p className="text-xl max-w-3xl">
+          <h1 className="text-5xl font-bold mb-4 animate-slide-in-left">What We Do</h1>
+          <p className="text-xl max-w-3xl animate-slide-in-right [animation-delay:0.3s]">
             Discover our comprehensive programs and services designed to create sustainable change in rural communities across South Sudan
           </p>
         </div>
@@ -17,7 +17,7 @@ const WhatWeDo = () => {
         <div className="container mx-auto px-4">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <h2 className="text-4xl font-bold text-gray-800 mb-6">Agricultural Development</h2>
+              <h2 className="text-4xl font-bold text-gray-800 mb-6 animate-slide-in-left">Agricultural Development</h2>
               <p className="text-lg text-gray-600 mb-6">
                 We support farmers and agricultural communities with modern farming techniques, 
                 sustainable practices, and market access programs that increase productivity while 
@@ -64,7 +64,7 @@ const WhatWeDo = () => {
               />
             </div>
             <div className="lg:order-2">
-              <h2 className="text-4xl font-bold text-gray-800 mb-6">Education & Training</h2>
+              <h2 className="text-4xl font-bold text-gray-800 mb-6 animate-slide-in-right">Education & Training</h2>
               <p className="text-lg text-gray-600 mb-6">
                 Building human capacity through comprehensive education and skills development 
                 programs that prepare communities for sustainable economic growth and food security.
@@ -96,7 +96,7 @@ const WhatWeDo = () => {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div>
-              <h2 className="text-4xl font-bold text-gray-800 mb-6">Food Security & Nutrition</h2>
+              <h2 className="text-4xl font-bold text-gray-800 mb-6 animate-slide-in-left">Food Security & Nutrition</h2>
               <p className="text-lg text-gray-600 mb-6">
                 Addressing malnutrition and food insecurity through comprehensive programs that 
                 ensure families have access to nutritious food year-round, especially during drought seasons.
@@ -142,7 +142,7 @@ const WhatWeDo = () => {
               />
             </div>
             <div className="lg:order-2">
-              <h2 className="text-4xl font-bold text-gray-800 mb-6">Livestock & Pastoralism</h2>
+              <h2 className="text-4xl font-bold text-gray-800 mb-6 animate-slide-in-right">Livestock & Pastoralism</h2>
               <p className="text-lg text-gray-600 mb-6">
                 Supporting pastoralist communities with veterinary services, livestock management 
                 training, and sustainable grazing practices that protect both animals and environment.
@@ -177,7 +177,7 @@ const WhatWeDo = () => {
       {/* Program Areas */}
       <section className="py-16 bg-emerald-50">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Our Program Areas</h2>
+          <h2 className="text-4xl font-bold text-center text-gray-800 mb-12 animate-slide-in-left">Our Program Areas</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="h-48">
@@ -242,7 +242,7 @@ const WhatWeDo = () => {
       {/* Impact Metrics */}
       <section className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center text-gray-800 mb-12">Our Impact in Numbers</h2>
+          <h2 className="text-4xl font-bold text-center text-gray-800 mb-12 animate-slide-in-left">Our Impact in Numbers</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center bg-white p-6 rounded-lg shadow-lg">
               <div className="text-4xl font-bold text-emerald-600 mb-2">25,847</div>
@@ -271,7 +271,7 @@ const WhatWeDo = () => {
       {/* Call to Action */}
       <section className="py-16 bg-emerald-800 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-6">Ready to Make a Difference?</h2>
+          <h2 className="text-4xl font-bold mb-6 animate-slide-in-left">Ready to Make a Difference?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Join us in transforming rural communities through sustainable agriculture and development programs
           </p>

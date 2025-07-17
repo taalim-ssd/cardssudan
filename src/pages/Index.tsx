@@ -17,10 +17,10 @@ const Index = () => {
           }}
         ></div>
         <div className="relative container mx-auto px-4 text-center">
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-slide-in-left">
             Empowering Rural Communities
           </h1>
-          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto">
+          <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto animate-slide-in-right [animation-delay:0.3s]">
             Building sustainable futures through community-driven development initiatives across rural regions
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -69,8 +69,8 @@ const Index = () => {
       <section className="py-16">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Focus Areas</h2>
-            <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            <h2 className="text-4xl font-bold text-gray-800 mb-4 animate-slide-in-left">Our Focus Areas</h2>
+            <p className="text-xl text-gray-600 max-w-2xl mx-auto animate-slide-in-right [animation-delay:0.2s]">
               We work across multiple sectors to create comprehensive and sustainable development
             </p>
           </div>
@@ -83,7 +83,7 @@ const Index = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Agricultural Development</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3 animate-fade-slide-up [animation-delay:0.4s]">Agricultural Development</h3>
               <p className="text-gray-600 mb-4">
                 Community members actively participate in infrastructure development combining agricultural training with water access initiatives
               </p>
@@ -99,7 +99,7 @@ const Index = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Food Security</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3 animate-fade-slide-up [animation-delay:0.6s]">Food Security</h3>
               <p className="text-gray-600 mb-4">
                 Ensuring reliable access to nutritious food through sustainable farming
               </p>
@@ -115,7 +115,7 @@ const Index = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-              <h3 className="text-xl font-semibold text-gray-800 mb-3">Capacity Building</h3>
+              <h3 className="text-xl font-semibold text-gray-800 mb-3 animate-fade-slide-up [animation-delay:0.8s]">Capacity Building</h3>
               <p className="text-gray-600 mb-4">
                 Training farmers and communities in modern agricultural techniques
               </p>
@@ -136,7 +136,7 @@ const Index = () => {
       {/* Call to Action */}
       <section className="py-16 bg-emerald-800 text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-4xl font-bold mb-4">Ready to Make a Difference?</h2>
+          <h2 className="text-4xl font-bold mb-4 animate-slide-in-left">Ready to Make a Difference?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Join us in creating sustainable change in rural communities. Every contribution matters.
           </p>
