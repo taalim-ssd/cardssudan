@@ -15,7 +15,7 @@ const Footer = () => {
               Community Agency for Rural Development - Empowering communities through sustainable development initiatives.
             </p>
             <div className="text-emerald-300">
-              <p>123 Rural Development A</p>
+              <p>Community Agency for Rural Development</p>
               <p>Private Bag Narus</p>
               <p>Phone: +211929968020,+211923031681</p>
               <p>Email: info@cardss.org</p>
