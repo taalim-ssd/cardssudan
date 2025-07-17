@@ -48,8 +48,8 @@ const Navigation = () => {
                     Who We Are
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-screen max-w-screen-xl mx-auto p-6 bg-white shadow-lg">
-                      <div className="grid grid-cols-3 gap-8">
+                    <div className="w-[600px] max-w-[90vw] p-6 bg-white shadow-lg">
+                      <div className="grid grid-cols-3 gap-6">
                         <div>
                           <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">About Us</h3>
                           <NavigationMenuLink asChild>
@@ -114,8 +114,8 @@ const Navigation = () => {
                     What We Do
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-screen max-w-screen-xl mx-auto p-6 bg-white shadow-lg">
-                      <div className="grid grid-cols-4 gap-8">
+                    <div className="w-[800px] max-w-[90vw] p-6 bg-white shadow-lg">
+                      <div className="grid grid-cols-4 gap-6">
                         <div>
                           <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Agriculture</h3>
                           <NavigationMenuLink asChild>
@@ -198,8 +198,8 @@ const Navigation = () => {
                     Where We Work
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-screen max-w-screen-xl mx-auto p-6 bg-white shadow-lg">
-                      <div className="grid grid-cols-3 gap-8">
+                    <div className="w-[600px] max-w-[90vw] p-6 bg-white shadow-lg">
+                      <div className="grid grid-cols-3 gap-6">
                         <div>
                           <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">South Sudan</h3>
                           <NavigationMenuLink asChild>
@@ -264,8 +264,8 @@ const Navigation = () => {
                     Stories
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-screen max-w-screen-xl mx-auto p-6 bg-white shadow-lg">
-                      <div className="grid grid-cols-3 gap-8">
+                    <div className="w-[600px] max-w-[90vw] p-6 bg-white shadow-lg">
+                      <div className="grid grid-cols-3 gap-6">
                         <div>
                           <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Impact Stories</h3>
                           <NavigationMenuLink asChild>
@@ -330,8 +330,8 @@ const Navigation = () => {
                     Blog
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-screen max-w-screen-xl mx-auto p-6 bg-white shadow-lg">
-                      <div className="grid grid-cols-3 gap-8">
+                    <div className="w-[600px] max-w-[90vw] p-6 bg-white shadow-lg">
+                      <div className="grid grid-cols-3 gap-6">
                         <div>
                           <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">News & Updates</h3>
                           <NavigationMenuLink asChild>
@@ -396,8 +396,8 @@ const Navigation = () => {
                     Get Involved
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-screen max-w-screen-xl mx-auto p-6 bg-white shadow-lg">
-                      <div className="grid grid-cols-3 gap-8">
+                    <div className="w-[600px] max-w-[90vw] p-6 bg-white shadow-lg">
+                      <div className="grid grid-cols-3 gap-6">
                         <div>
                           <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Volunteer</h3>
                           <NavigationMenuLink asChild>
@@ -462,8 +462,8 @@ const Navigation = () => {
                     Contact
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-screen max-w-screen-xl mx-auto p-6 bg-white shadow-lg">
-                      <div className="grid grid-cols-3 gap-8">
+                    <div className="w-[600px] max-w-[90vw] p-6 bg-white shadow-lg">
+                      <div className="grid grid-cols-3 gap-6">
                         <div>
                           <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Get in Touch</h3>
                           <NavigationMenuLink asChild>
