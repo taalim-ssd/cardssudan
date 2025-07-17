@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
 import ImageGallery from "../components/ImageGallery";
 import SouthSudanStories from "../components/SouthSudanStories";
+import { InlineEditableText } from "../components/InlineEditableText";
 const Index = () => {
   return <div className="min-h-screen">
       {/* Hero Section */}
@@ -80,7 +81,12 @@ const Index = () => {
                 <img src="/lovable-uploads/7125d47e-f8b6-4ce7-b455-a0ec9c418627.png" alt="Food Security" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3 animate-fade-slide-up [animation-delay:0.6s]">Food Security</h3>
-              <p className="text-gray-600 mb-4">Ensuring reliable access to nutritious food through sustainable farming in kappea</p>
+              <InlineEditableText
+                contentKey="food-security-description"
+                defaultText="Ensuring reliable access to nutritious food through sustainable farming in kappea"
+                className="text-gray-600 mb-4"
+                pagePath="/"
+              />
               <Link to="/what-we-do" className="text-emerald-600 hover:text-emerald-800 font-medium">
                 Learn More →
               </Link>
