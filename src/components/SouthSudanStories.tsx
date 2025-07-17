@@ -60,38 +60,7 @@ const SouthSudanStories = () => {
     );
   }
 
-  return (
-    <section className="py-16 bg-emerald-50">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">Community Stories from South Sudan</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Real impact stories from our agricultural and food security programs across South Sudan
-          </p>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {stories.map((story) => (
-            <div key={story.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
-              <div className="h-48">
-                <img 
-                  src={getImageUrl(story.image_storage_path, story.featured_image_url)} 
-                  alt={story.title}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="p-4">
-                <h3 className="text-lg font-semibold text-gray-800 mb-2">{story.title}</h3>
-                <p className="text-gray-600 text-sm">{story.summary}</p>
-                {story.location && (
-                  <p className="text-emerald-600 text-xs mt-2">{story.location}</p>
-                )}
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+  return null;
 };
 
 export default SouthSudanStories;
