@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-emerald-800 mt-8 pt-8 text-center text-emerald-300">
-          <p>&copy; 2024 Community Agency for Rural Development (CARD). All rights reserved.</p>
+          <p>&copy; 2025 Community Agency for Rural Development (CARD). All rights reserved.</p>
         </div>
       </div>
     </footer>;
