@@ -11,9 +11,6 @@ const Footer = () => {
               </div>
               <div className="text-xl font-bold">CARD</div>
             </div>
-            <p className="text-emerald-200 mb-4">
-              Community Agency for Rural Development - Empowering communities through sustainable development initiatives.
-            </p>
             <div className="text-emerald-300">
               <p>Community Agency for Rural Development</p>
               <p>Private Bag Narus</p>
