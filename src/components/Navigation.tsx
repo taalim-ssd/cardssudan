@@ -47,27 +47,63 @@ const Navigation = () => {
                     Who We Are
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-screen max-w-screen-xl mx-auto p-4 bg-white">
-                      <NavigationMenuLink asChild>
-                        <Link to="/who-we-are" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          About CARD
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/who-we-are" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Our Mission & Vision
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/who-we-are" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Leadership Team
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/who-we-are" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Our History
-                        </Link>
-                      </NavigationMenuLink>
+                    <div className="w-screen max-w-screen-xl mx-auto p-6 bg-white shadow-lg">
+                      <div className="grid grid-cols-3 gap-8">
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">About Us</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/who-we-are" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Our Story
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/who-we-are" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Mission & Vision
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/who-we-are" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Core Values
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Leadership</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/who-we-are" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Board of Directors
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/who-we-are" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Executive Team
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/who-we-are" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Advisory Council
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Governance</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/who-we-are" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Annual Reports
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/who-we-are" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Financial Transparency
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/who-we-are" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Partners & Donors
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                      </div>
                     </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
@@ -77,27 +113,81 @@ const Navigation = () => {
                     What We Do
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-screen max-w-screen-xl mx-auto p-4 bg-white">
-                      <NavigationMenuLink asChild>
-                        <Link to="/what-we-do" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Agricultural Development
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/what-we-do" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Food Security Programs
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/what-we-do" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Education & Training
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/what-we-do" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Community Development
-                        </Link>
-                      </NavigationMenuLink>
+                    <div className="w-screen max-w-screen-xl mx-auto p-6 bg-white shadow-lg">
+                      <div className="grid grid-cols-4 gap-8">
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Agriculture</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/what-we-do" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Crop Production
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/what-we-do" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Sustainable Farming
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/what-we-do" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Irrigation Systems
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Food Security</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/what-we-do" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Nutrition Programs
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/what-we-do" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Emergency Relief
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/what-we-do" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Food Distribution
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Capacity Building</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/what-we-do" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Skills Training
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/what-we-do" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Leadership Development
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/what-we-do" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Youth Programs
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Community</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/what-we-do" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Women's Empowerment
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/what-we-do" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Health & Wellness
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/what-we-do" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Infrastructure
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                      </div>
                     </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
@@ -107,27 +197,63 @@ const Navigation = () => {
                     Where We Work
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-screen max-w-screen-xl mx-auto p-4 bg-white">
-                      <NavigationMenuLink asChild>
-                        <Link to="/where-we-work" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          South Sudan Overview
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/where-we-work" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Regional Programs
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/where-we-work" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Community Partnerships
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/where-we-work" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Impact Areas
-                        </Link>
-                      </NavigationMenuLink>
+                    <div className="w-screen max-w-screen-xl mx-auto p-6 bg-white shadow-lg">
+                      <div className="grid grid-cols-3 gap-8">
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">South Sudan</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/where-we-work" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Central Equatoria
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/where-we-work" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Eastern Equatoria
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/where-we-work" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Western Equatoria
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Communities</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/where-we-work" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Rural Villages
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/where-we-work" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Farming Cooperatives
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/where-we-work" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Market Centers
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Impact</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/where-we-work" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Project Locations
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/where-we-work" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Success Metrics
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/where-we-work" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Future Expansion
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                      </div>
                     </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
@@ -137,27 +263,63 @@ const Navigation = () => {
                     Stories
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-screen max-w-screen-xl mx-auto p-4 bg-white">
-                      <NavigationMenuLink asChild>
-                        <Link to="/stories" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Success Stories
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/stories" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Community Testimonials
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/stories" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Photo Stories
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/stories" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Video Documentaries
-                        </Link>
-                      </NavigationMenuLink>
+                    <div className="w-screen max-w-screen-xl mx-auto p-6 bg-white shadow-lg">
+                      <div className="grid grid-cols-3 gap-8">
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Impact Stories</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/stories" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Success Stories
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/stories" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Personal Testimonials
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/stories" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Case Studies
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Media</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/stories" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Photo Gallery
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/stories" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Video Documentaries
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/stories" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Audio Stories
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Features</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/stories" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Featured Stories
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/stories" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Community Voices
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/stories" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Before & After
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                      </div>
                     </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
@@ -167,27 +329,63 @@ const Navigation = () => {
                     Blog
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-screen max-w-screen-xl mx-auto p-4 bg-white">
-                      <NavigationMenuLink asChild>
-                        <Link to="/blog" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Latest News
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/blog" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Research & Reports
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/blog" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Policy Updates
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/blog" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Expert Insights
-                        </Link>
-                      </NavigationMenuLink>
+                    <div className="w-screen max-w-screen-xl mx-auto p-6 bg-white shadow-lg">
+                      <div className="grid grid-cols-3 gap-8">
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">News & Updates</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/blog" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Latest News
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/blog" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Program Updates
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/blog" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Event Announcements
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Research</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/blog" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Research Reports
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/blog" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Impact Studies
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/blog" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Best Practices
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Insights</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/blog" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Expert Opinions
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/blog" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Policy Analysis
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/blog" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Thought Leadership
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                      </div>
                     </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
@@ -197,27 +395,63 @@ const Navigation = () => {
                     Get Involved
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-screen max-w-screen-xl mx-auto p-4 bg-white">
-                      <NavigationMenuLink asChild>
-                        <Link to="/get-involved" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Volunteer Opportunities
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/get-involved" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Donate Now
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/get-involved" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Corporate Partnerships
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/get-involved" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Join Our Team
-                        </Link>
-                      </NavigationMenuLink>
+                    <div className="w-screen max-w-screen-xl mx-auto p-6 bg-white shadow-lg">
+                      <div className="grid grid-cols-3 gap-8">
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Volunteer</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/get-involved" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Volunteer Opportunities
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/get-involved" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Skills-Based Volunteering
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/get-involved" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Group Volunteering
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Support</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/get-involved" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Donate Now
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/get-involved" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Monthly Giving
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/get-involved" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Corporate Sponsorship
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Careers</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/get-involved" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Job Opportunities
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/get-involved" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Internships
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/get-involved" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Consultant Roles
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                      </div>
                     </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
@@ -227,27 +461,63 @@ const Navigation = () => {
                     Contact
                   </NavigationMenuTrigger>
                   <NavigationMenuContent>
-                    <div className="w-screen max-w-screen-xl mx-auto p-4 bg-white">
-                      <NavigationMenuLink asChild>
-                        <Link to="/contact" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Contact Information
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/contact" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Office Locations
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/contact" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Media Inquiries
-                        </Link>
-                      </NavigationMenuLink>
-                      <NavigationMenuLink asChild>
-                        <Link to="/contact" className="block px-4 py-3 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
-                          Partnership Requests
-                        </Link>
-                      </NavigationMenuLink>
+                    <div className="w-screen max-w-screen-xl mx-auto p-6 bg-white shadow-lg">
+                      <div className="grid grid-cols-3 gap-8">
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Get in Touch</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/contact" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Contact Information
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/contact" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Send a Message
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/contact" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Schedule a Meeting
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Locations</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/contact" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Main Office
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/contact" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Field Offices
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/contact" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Regional Centers
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                        <div>
+                          <h3 className="text-lg font-semibold text-emerald-800 mb-3 pb-2 border-b-2 border-emerald-200">Inquiries</h3>
+                          <NavigationMenuLink asChild>
+                            <Link to="/contact" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Media Inquiries
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/contact" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              Partnership Requests
+                            </Link>
+                          </NavigationMenuLink>
+                          <NavigationMenuLink asChild>
+                            <Link to="/contact" className="block px-3 py-2 hover:bg-emerald-50 hover:text-emerald-800 rounded text-gray-700">
+                              General Support
+                            </Link>
+                          </NavigationMenuLink>
+                        </div>
+                      </div>
                     </div>
                   </NavigationMenuContent>
                 </NavigationMenuItem>
