@@ -1,9 +1,6 @@
-
 import { Link } from "react-router-dom";
-
 const Footer = () => {
-  return (
-    <footer className="bg-emerald-900 text-white">
+  return <footer className="bg-emerald-900 text-white">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Organization Info */}
@@ -18,10 +15,10 @@ const Footer = () => {
               Community Agency for Rural Development - Empowering communities through sustainable development initiatives.
             </p>
             <div className="text-emerald-300">
-              <p>123 Rural Development Ave</p>
-              <p>Green Valley, State 12345</p>
-              <p>Phone: (555) 123-4567</p>
-              <p>Email: info@card.org</p>
+              <p>123 Rural Development A</p>
+              <p>Private Bag Narus</p>
+              <p>Phone: +211929968020,+211923031681</p>
+              <p>Email: info@cardss.org</p>
             </div>
           </div>
 
@@ -52,11 +49,7 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-4">Stay Connected</h4>
             <p className="text-emerald-200 mb-4">Subscribe to our newsletter for updates on our impact.</p>
             <div className="space-y-2">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="w-full px-3 py-2 bg-emerald-800 border border-emerald-700 rounded text-white placeholder-emerald-300 focus:outline-none focus:border-emerald-500"
-              />
+              <input type="email" placeholder="Your email" className="w-full px-3 py-2 bg-emerald-800 border border-emerald-700 rounded text-white placeholder-emerald-300 focus:outline-none focus:border-emerald-500" />
               <button className="w-full bg-emerald-600 hover:bg-emerald-500 px-4 py-2 rounded font-medium transition-colors">
                 Subscribe
               </button>
@@ -68,8 +61,6 @@ const Footer = () => {
           <p>&copy; 2024 Community Agency for Rural Development (CARD). All rights reserved.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
