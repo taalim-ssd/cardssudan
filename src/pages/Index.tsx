@@ -1,21 +1,15 @@
-
 import { Link } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
 import ImageGallery from "../components/ImageGallery";
 import SouthSudanStories from "../components/SouthSudanStories";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen">
+  return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-emerald-800 to-emerald-600 text-white py-20">
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
-        <div 
-          className="absolute inset-0 bg-cover bg-center opacity-70"
-          style={{
-            backgroundImage: "url('/lovable-uploads/3b82f5c3-1c9e-4d8c-9c28-c1ccbe7de77b.png')"
-          }}
-        ></div>
+        <div className="absolute inset-0 bg-cover bg-center opacity-70" style={{
+        backgroundImage: "url('/lovable-uploads/3b82f5c3-1c9e-4d8c-9c28-c1ccbe7de77b.png')"
+      }}></div>
         <div className="relative container mx-auto px-4 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-slide-in-left">
             Empowering Rural Communities
@@ -24,17 +18,11 @@ const Index = () => {
             Building sustainable futures through community-driven development initiatives across rural regions
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="/get-involved"
-              className="bg-emerald-500 hover:bg-emerald-400 px-8 py-3 rounded-lg font-semibold transition-colors inline-flex items-center"
-            >
+            <Link to="/get-involved" className="bg-emerald-500 hover:bg-emerald-400 px-8 py-3 rounded-lg font-semibold transition-colors inline-flex items-center">
               Get Involved
               <ChevronRight className="ml-2 h-5 w-5" />
             </Link>
-            <Link
-              to="/what-we-do"
-              className="border border-white hover:bg-white hover:text-emerald-800 px-8 py-3 rounded-lg font-semibold transition-colors"
-            >
+            <Link to="/what-we-do" className="border border-white hover:bg-white hover:text-emerald-800 px-8 py-3 rounded-lg font-semibold transition-colors">
               Learn More
             </Link>
           </div>
@@ -77,11 +65,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-emerald-500">
               <div className="h-48 mb-4 rounded-lg overflow-hidden">
-                <img 
-                  src="/lovable-uploads/b972445d-ae0b-4a40-99c1-d7cd9c2962f2.png" 
-                  alt="Community-driven agricultural development and water infrastructure in South Sudan"
-                  className="w-full h-full object-cover"
-                />
+                <img src="/lovable-uploads/b972445d-ae0b-4a40-99c1-d7cd9c2962f2.png" alt="Community-driven agricultural development and water infrastructure in South Sudan" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3 animate-fade-slide-up [animation-delay:0.4s]">Agricultural Development</h3>
               <p className="text-gray-600 mb-4">
@@ -93,32 +77,20 @@ const Index = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-emerald-500">
               <div className="h-48 mb-4 rounded-lg overflow-hidden">
-                <img 
-                  src="/lovable-uploads/7125d47e-f8b6-4ce7-b455-a0ec9c418627.png" 
-                  alt="Food Security"
-                  className="w-full h-full object-cover"
-                />
+                <img src="/lovable-uploads/7125d47e-f8b6-4ce7-b455-a0ec9c418627.png" alt="Food Security" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3 animate-fade-slide-up [animation-delay:0.6s]">Food Security</h3>
-              <p className="text-gray-600 mb-4">
-                Ensuring reliable access to nutritious food through sustainable farming
-              </p>
+              <p className="text-gray-600 mb-4">Ensuring reliable access to nutritious food through sustainable farming in kappea</p>
               <Link to="/what-we-do" className="text-emerald-600 hover:text-emerald-800 font-medium">
                 Learn More →
               </Link>
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-emerald-500">
               <div className="h-48 mb-4 rounded-lg overflow-hidden">
-                <img 
-                  src="/lovable-uploads/1cdb20c3-b72d-4410-8367-447669cac1d3.png" 
-                  alt="Capacity Building"
-                  className="w-full h-full object-cover"
-                />
+                <img src="/lovable-uploads/1cdb20c3-b72d-4410-8367-447669cac1d3.png" alt="Capacity Building" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3 animate-fade-slide-up [animation-delay:0.8s]">Capacity Building</h3>
-              <p className="text-gray-600 mb-4">
-                Training farmers and communities in modern agricultural techniques
-              </p>
+              <p className="text-gray-600 mb-4">Emmy Lonyia (Program Manager) training farmers and communities in modern agricultural techniques</p>
               <Link to="/what-we-do" className="text-emerald-600 hover:text-emerald-800 font-medium">
                 Learn More →
               </Link>
@@ -141,23 +113,15 @@ const Index = () => {
             Join us in creating sustainable change in rural communities. Every contribution matters.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              to="/get-involved"
-              className="bg-emerald-500 hover:bg-emerald-400 px-8 py-3 rounded-lg font-semibold transition-colors"
-            >
+            <Link to="/get-involved" className="bg-emerald-500 hover:bg-emerald-400 px-8 py-3 rounded-lg font-semibold transition-colors">
               Volunteer Today
             </Link>
-            <Link
-              to="/contact"
-              className="border border-white hover:bg-white hover:text-emerald-800 px-8 py-3 rounded-lg font-semibold transition-colors"
-            >
+            <Link to="/contact" className="border border-white hover:bg-white hover:text-emerald-800 px-8 py-3 rounded-lg font-semibold transition-colors">
               Contact Us
             </Link>
           </div>
         </div>
       </section>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
