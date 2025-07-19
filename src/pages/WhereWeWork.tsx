@@ -79,9 +79,12 @@ const WhereWeWork = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div className="h-64 sm:h-80 lg:h-96 rounded-lg overflow-hidden shadow-lg">
                 <img 
-                  src="/lovable-uploads/058ca8b1-2575-4677-8e49-f3cce249d0b0.png" 
+                  src="/placeholder.svg" 
                   alt="Agricultural development training and community participation in Kapoeta East"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                  onError={(e) => {
+                    e.currentTarget.src = "/placeholder.svg";
+                  }}
                 />
               </div>
               <div className="space-y-4 sm:space-y-6">

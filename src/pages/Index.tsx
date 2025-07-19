@@ -93,7 +93,14 @@ const Index = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-emerald-500">
               <div className="h-48 mb-4 rounded-lg overflow-hidden">
-                <img src="/lovable-uploads/1cdb20c3-b72d-4410-8367-447669cac1d3.png" alt="Capacity Building" className="w-full h-full object-cover" />
+                <img 
+                  src="/placeholder.svg" 
+                  alt="Capacity Building" 
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    e.currentTarget.src = "/placeholder.svg";
+                  }}
+                />
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3 animate-fade-slide-up [animation-delay:0.8s]">Capacity Building</h3>
               <p className="text-gray-600 mb-4">Emmy Lonyia (Program Manager) training farmers and communities in modern agricultural techniques</p>
