@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 import { supabase } from "@/integrations/supabase/client";
+import { getStorageImageUrl } from "@/utils/imageUtils";
 
 interface BlogPost {
   id: string;
@@ -47,7 +48,7 @@ const Blog = () => {
       const { data } = supabase.storage.from('blog-images').getPublicUrl(storagePath);
       return data.publicUrl;
     }
-    return fallbackUrl || '/lovable-uploads/e200fbed-1014-4ab9-ab6e-8d76106dd2be.png';
+    return fallbackUrl || getStorageImageUrl('media', 'stories/story-fallback.png', '/placeholder.svg');
   };
 
   if (loading) {
@@ -89,7 +90,7 @@ const Blog = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="h-96 rounded-lg overflow-hidden">
               <img 
-                src="/lovable-uploads/704d4949-6a97-4f68-b782-465dd3a9e61e.png" 
+                src={getStorageImageUrl('media', 'stories/community-engagement.png', '/placeholder.svg')} 
                 alt="Community engagement and training"
                 className="w-full h-full object-cover"
               />

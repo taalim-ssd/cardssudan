@@ -1,6 +1,7 @@
 
 import React from 'react';
 import LeafletMap from '../components/LeafletMap';
+import { getStorageImageUrl } from "@/utils/imageUtils";
 
 const WhereWeWork = () => {
   return (
@@ -120,7 +121,7 @@ const WhereWeWork = () => {
               </div>
               <div className="h-64 sm:h-80 lg:h-96 rounded-lg overflow-hidden shadow-lg lg:order-1">
                 <img 
-                  src="/lovable-uploads/9bec6d44-5bfe-4c63-aaa4-3e3de495e60e.png" 
+                  src={getStorageImageUrl('media', 'community/community-meetings.png', '/placeholder.svg')} 
                   alt="Community meetings and engagement"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
                 />

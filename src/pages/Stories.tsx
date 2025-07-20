@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import SouthSudanStories from "../components/SouthSudanStories";
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 import { supabase } from "@/integrations/supabase/client";
+import { getStorageImageUrl } from "@/utils/imageUtils";
 
 interface Story {
   id: string;
@@ -48,7 +49,7 @@ const Stories = () => {
       const { data } = supabase.storage.from('story-images').getPublicUrl(storagePath);
       return data.publicUrl;
     }
-    return fallbackUrl || '/lovable-uploads/2a687e30-1baa-434c-a933-2cde06dae39f.png';
+    return fallbackUrl || getStorageImageUrl('media', 'stories/story-fallback.png', '/placeholder.svg');
   };
 
   if (loading) {
@@ -91,7 +92,7 @@ const Stories = () => {
             <div className="rounded-lg overflow-hidden">
               <AspectRatio ratio={4 / 3}>
                 <img 
-                  src="/lovable-uploads/3b82f5c3-1c9e-4d8c-9c28-c1ccbe7de77b.png" 
+                  src={getStorageImageUrl('media', 'hero/hero-background.png', '/placeholder.svg')} 
                   alt="Community gathering in South Sudan"
                   className="w-full h-full object-cover"
                   onError={(e) => {
@@ -122,7 +123,7 @@ const Stories = () => {
                   summary: "Meet Mary Akech, a farmer from Juba who transformed her small plot into a thriving agricultural business through CARD's seed distribution and training program.",
                   content: "Meet Mary Akech, a farmer from Juba who transformed her small plot into a thriving agricultural business through CARD's seed distribution and training program. Her story demonstrates the power of agricultural innovation and community support. Through dedicated training sessions and access to drought-resistant seeds, Mary learned sustainable farming techniques that tripled her harvest. Today, she leads a women's cooperative that supports 50 other female farmers in her community. The ripple effects of her success have created employment opportunities, improved child nutrition, and strengthened the entire community's resilience.",
                   image_storage_path: "",
-                  featured_image_url: "/lovable-uploads/3b82f5c3-1c9e-4d8c-9c28-c1ccbe7de77b.png",
+                  featured_image_url: getStorageImageUrl('media', 'hero/hero-background.png', '/placeholder.svg'),
                   published_date: "2024-03-01"
                 })}
                 className="bg-emerald-600 hover:bg-emerald-700 text-white px-6 py-3 rounded-lg transition-colors"

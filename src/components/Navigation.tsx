@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { ChevronDown } from "lucide-react";
+import { getStorageImageUrl } from "@/utils/imageUtils";
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -27,8 +28,8 @@ const Navigation = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2" onClick={() => setIsOpen(false)}>
             <img 
-              src="/lovable-uploads/b6c0b34a-9d58-4849-82bf-aeb359fe8bb1.png" 
-              alt="CARD Logo" 
+              src={getStorageImageUrl('media', 'logo/card-logo.png', '/placeholder.svg')} 
+              alt="CARD Logo"
               className="h-12 w-auto"
             />
           </Link>

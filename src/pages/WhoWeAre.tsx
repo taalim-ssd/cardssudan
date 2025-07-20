@@ -1,4 +1,6 @@
 
+import { getStorageImageUrl } from "@/utils/imageUtils";
+
 const WhoWeAre = () => {
   return (
     <div className="min-h-screen">
@@ -80,8 +82,8 @@ const WhoWeAre = () => {
             <div className="text-center">
               <div className="w-64 h-96 mx-auto mb-4 overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="/lovable-uploads/1c6a16b6-2d75-43d7-947f-1ee7664f8eb5.png" 
-                  alt="Alphonse Lotunyeny" 
+                  src={getStorageImageUrl('media', 'profiles/alphonse-lotunyeny.png', '/placeholder.svg')} 
+                  alt="Alphonse Lotunyeny"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -94,8 +96,8 @@ const WhoWeAre = () => {
             <div className="text-center">
               <div className="w-64 h-96 mx-auto mb-4 overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="/lovable-uploads/2372c380-1e7f-4e91-8b2f-1c76730ac09c.png" 
-                  alt="Emmy Lonyia" 
+                  src={getStorageImageUrl('media', 'profiles/emmy-lonyia.png', '/placeholder.svg')} 
+                  alt="Emmy Lonyia"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -108,8 +110,8 @@ const WhoWeAre = () => {
             <div className="text-center">
               <div className="w-64 h-96 mx-auto mb-4 overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="/lovable-uploads/ca9d0e12-7c58-4ab8-85bd-212bd29f787e.png" 
-                  alt="Jemimah Lomongin" 
+                  src={getStorageImageUrl('media', 'profiles/jemimah-lomongin.png', '/placeholder.svg')} 
+                  alt="Jemimah Lomongin"
                   className="w-full h-full object-cover object-top"
                 />
               </div>

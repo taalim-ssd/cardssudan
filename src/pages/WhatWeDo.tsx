@@ -1,4 +1,6 @@
 
+import { getStorageImageUrl } from "@/utils/imageUtils";
+
 const WhatWeDo = () => {
   return (
     <div className="min-h-screen">
@@ -48,7 +50,7 @@ const WhatWeDo = () => {
             </div>
             <div className="h-96 rounded-lg overflow-hidden">
               <img 
-                src="/lovable-uploads/28a14471-0cd0-458a-a3d7-acc4378ce4b1.png" 
+                src={getStorageImageUrl('media', 'programs/agricultural-work.png', '/placeholder.svg')} 
                 alt="Agricultural development work in South Sudan"
                 className="w-full h-full object-cover"
               />
@@ -58,7 +60,7 @@ const WhatWeDo = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
             <div className="h-96 rounded-lg overflow-hidden lg:order-1">
               <img 
-                src="/lovable-uploads/e5975fb9-cf6a-468a-bfa3-bf4cc9795823.png" 
+                src={getStorageImageUrl('media', 'programs/education-training.png', '/placeholder.svg')} 
                 alt="Education and training session in South Sudan"
                 className="w-full h-full object-cover"
               />
@@ -126,7 +128,7 @@ const WhatWeDo = () => {
             </div>
             <div className="h-96 rounded-lg overflow-hidden">
               <img 
-                src="/lovable-uploads/7125d47e-f8b6-4ce7-b455-a0ec9c418627.png" 
+                src={getStorageImageUrl('media', 'programs/food-security.png', '/placeholder.svg')} 
                 alt="Food security and nutrition programs in South Sudan"
                 className="w-full h-full object-cover"
               />
@@ -136,7 +138,7 @@ const WhatWeDo = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="h-96 rounded-lg overflow-hidden lg:order-1">
               <img 
-                src="/lovable-uploads/5d0a4f3a-1e7b-4c5c-8609-a8b8ad2bf573.png" 
+                src={getStorageImageUrl('media', 'programs/livestock-programs.png', '/placeholder.svg')} 
                 alt="Livestock and pastoralism programs in South Sudan"
                 className="w-full h-full object-cover"
               />
@@ -182,7 +184,7 @@ const WhatWeDo = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="h-48">
                 <img 
-                  src="/lovable-uploads/5d2017ce-b48b-4324-a195-b5d40538fd4a.png" 
+                  src={getStorageImageUrl('media', 'programs/water-infrastructure.png', '/placeholder.svg')} 
                   alt="Community water infrastructure development project in Lowi Simon, Kapoeta East"
                   className="w-full h-full object-cover"
                 />
@@ -201,7 +203,7 @@ const WhatWeDo = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="h-48">
                 <img 
-                  src="/lovable-uploads/95428baa-b2f2-42dc-a222-56d36f1f1c14.png" 
+                  src={getStorageImageUrl('media', 'programs/market-access.png', '/placeholder.svg')} 
                   alt="Community market access programs"
                   className="w-full h-full object-cover"
                 />
@@ -220,7 +222,7 @@ const WhatWeDo = () => {
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="h-48">
                 <img 
-                  src="/lovable-uploads/e24492a5-4a03-4120-b42e-d5dd236858c5.png" 
+                  src={getStorageImageUrl('media', 'programs/capacity-building.png', '/placeholder.svg')} 
                   alt="Capacity building and community training programs"
                   className="w-full h-full object-cover"
                 />

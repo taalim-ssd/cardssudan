@@ -3,13 +3,14 @@ import { ChevronRight } from "lucide-react";
 import ImageGallery from "../components/ImageGallery";
 import SouthSudanStories from "../components/SouthSudanStories";
 import { InlineEditableText } from "../components/InlineEditableText";
+import { getStorageImageUrl } from "@/utils/imageUtils";
 const Index = () => {
   return <div className="min-h-screen">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-emerald-800 to-emerald-600 text-white py-20">
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="absolute inset-0 bg-cover bg-center opacity-70" style={{
-        backgroundImage: "url('/lovable-uploads/3b82f5c3-1c9e-4d8c-9c28-c1ccbe7de77b.png')"
+        backgroundImage: `url('${getStorageImageUrl('media', 'hero/hero-background.png', '/placeholder.svg')}')`
       }}></div>
         <div className="relative container mx-auto px-4 text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-slide-in-left">
@@ -66,7 +67,7 @@ const Index = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-emerald-500">
               <div className="h-48 mb-4 rounded-lg overflow-hidden">
-                <img src="/lovable-uploads/b972445d-ae0b-4a40-99c1-d7cd9c2962f2.png" alt="Community-driven agricultural development and water infrastructure in South Sudan" className="w-full h-full object-cover" />
+                <img src={getStorageImageUrl('media', 'programs/agricultural-development.png', '/placeholder.svg')} alt="Community-driven agricultural development and water infrastructure in South Sudan" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3 animate-fade-slide-up [animation-delay:0.4s]">Agricultural Development</h3>
               <p className="text-gray-600 mb-4">
@@ -78,7 +79,7 @@ const Index = () => {
             </div>
             <div className="bg-white p-6 rounded-lg shadow-lg border-t-4 border-emerald-500">
               <div className="h-48 mb-4 rounded-lg overflow-hidden">
-                <img src="/lovable-uploads/7125d47e-f8b6-4ce7-b455-a0ec9c418627.png" alt="Food Security" className="w-full h-full object-cover" />
+                <img src={getStorageImageUrl('media', 'programs/food-security.png', '/placeholder.svg')} alt="Food Security" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-xl font-semibold text-gray-800 mb-3 animate-fade-slide-up [animation-delay:0.6s]">Food Security</h3>
               <InlineEditableText
