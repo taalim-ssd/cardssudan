@@ -80,7 +80,7 @@ const ImageGallery = () => {
                   className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
                   onError={(e) => {
                     console.error(`Failed to load image: ${image.storage_path}`);
-                    e.currentTarget.style.display = 'none';
+                    e.currentTarget.src = '/placeholder.svg';
                   }}
                 />
               </AspectRatio>

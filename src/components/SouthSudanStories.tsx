@@ -60,7 +60,46 @@ const SouthSudanStories = () => {
     );
   }
 
-  return null;
+  return (
+    <section className="py-16 bg-emerald-50">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">Stories from South Sudan</h2>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Real stories of impact and transformation from the communities we serve
+          </p>
+        </div>
+        
+        {stories.length === 0 ? (
+          <div className="text-center py-12">
+            <p className="text-gray-600">No stories available at the moment.</p>
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {stories.map((story) => (
+              <div key={story.id} className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="h-48 bg-gray-200">
+                  <img 
+                    src={getImageUrl(story.image_storage_path, story.featured_image_url)} 
+                    alt={story.title}
+                    className="w-full h-full object-cover"
+                    onError={(e) => {
+                      e.currentTarget.src = '/placeholder.svg';
+                    }}
+                  />
+                </div>
+                <div className="p-6">
+                  <div className="text-emerald-600 text-sm font-medium mb-2">{story.location}</div>
+                  <h3 className="text-xl font-bold text-gray-800 mb-3">{story.title}</h3>
+                  <p className="text-gray-600 leading-relaxed">{story.summary}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </section>
+  );
 };
 
 export default SouthSudanStories;
