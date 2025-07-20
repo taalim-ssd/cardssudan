@@ -4,8 +4,13 @@ import { supabase } from "@/integrations/supabase/client";
 export const getStorageImageUrl = (bucketName: string, filePath: string, fallbackUrl?: string) => {
   if (!filePath) return fallbackUrl || '/placeholder.svg';
   
-  const { data } = supabase.storage.from(bucketName).getPublicUrl(filePath);
-  return data.publicUrl;
+  // For now, return placeholder until images are uploaded to storage
+  // TODO: Upload actual images to storage buckets
+  return fallbackUrl || '/placeholder.svg';
+  
+  // Uncomment this when images are uploaded to storage:
+  // const { data } = supabase.storage.from(bucketName).getPublicUrl(filePath);
+  // return data.publicUrl;
 };
 
 // Helper function to get media file URL by path
