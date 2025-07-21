@@ -1,0 +1,12 @@
+-- Insert gallery images for the uploaded community and agricultural photos
+INSERT INTO gallery_images (storage_path, alt_text, category, location, story, display_order) VALUES
+('community/group-meeting-outside-building.png', 'Community group meeting outside building', 'Community Engagement', 'South Sudan', 'Community members gathering for a training session outside their meeting facility', 1),
+('community/large-outdoor-gathering.png', 'Large community gathering outdoors', 'Community Meetings', 'South Sudan', 'Community members participating in a large outdoor meeting discussing development initiatives', 2),
+('community/community-gathering-discussion.png', 'Community gathering with discussion', 'Community Meetings', 'South Sudan', 'Community leaders and members engaged in discussions about local development projects', 3),
+('agriculture/farmer-working-field.png', 'Farmer working in agricultural field', 'Agricultural Development', 'South Sudan', 'Local farmer demonstrating improved agricultural techniques in the field', 4),
+('agriculture/community-agricultural-work.png', 'Community members working together in agriculture', 'Agricultural Development', 'South Sudan', 'Community members working together on agricultural development project', 5),
+('agriculture/agricultural-training-session.png', 'Agricultural training and demonstration', 'Agricultural Training', 'South Sudan', 'Community members participating in hands-on agricultural training session', 6),
+('agriculture/small-group-farming.png', 'Small group agricultural demonstration', 'Agricultural Training', 'South Sudan', 'Small group demonstration of improved farming techniques', 7),
+('agriculture/community-farming-project.png', 'Community farming project implementation', 'Agricultural Development', 'South Sudan', 'Community members implementing sustainable farming practices', 8),
+('community/project-launch-ceremony.png', 'Project launch ceremony with community', 'Project Launch', 'South Sudan', 'Community gathering for project launch ceremony with organizational banners', 9),
+('training/indoor-training-session.png', 'Indoor training and capacity building session', 'Capacity Building', 'South Sudan', 'Indoor training session focused on community development and capacity building', 10);
