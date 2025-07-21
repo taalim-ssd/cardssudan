@@ -1,0 +1,12 @@
+-- Insert additional gallery images for community development and infrastructure work
+INSERT INTO gallery_images (storage_path, alt_text, category, location, story, display_order) VALUES
+('infrastructure/community-water-project-digging.png', 'Community members working on water infrastructure project', 'Water & Sanitation', 'South Sudan', 'Community members collaborating on water infrastructure development project', 11),
+('infrastructure/water-project-community-work.png', 'Community water project implementation', 'Water & Sanitation', 'South Sudan', 'Local community actively participating in water infrastructure construction', 12),
+('community/community-meeting-building.png', 'Community members gathering at meeting facility', 'Community Engagement', 'South Sudan', 'Community members gathering for important development discussions at local facility', 13),
+('training/leadership-training-session.png', 'Leadership and governance training session', 'Capacity Building', 'South Sudan', 'Community leaders participating in capacity building and governance training', 14),
+('training/community-leadership-meeting.png', 'Community leadership development meeting', 'Leadership Development', 'South Sudan', 'Local leaders engaged in strategic planning and leadership development session', 15),
+('training/capacity-building-workshop.png', 'Capacity building workshop with community members', 'Capacity Building', 'South Sudan', 'Comprehensive capacity building workshop for community development', 16),
+('outreach/community-data-collection.png', 'Community outreach and data collection', 'Community Outreach', 'South Sudan', 'Field workers conducting community outreach and data collection activities', 17),
+('outreach/field-data-registration.png', 'Field registration and data collection', 'Community Outreach', 'South Sudan', 'Community members participating in registration and data collection process', 18),
+('agriculture/demonstration-plot-farming.png', 'Agricultural demonstration plot and farming', 'Agricultural Development', 'South Sudan', 'Agricultural demonstration plot showing improved farming techniques and crop production', 19),
+('community/large-community-mobilization.png', 'Large-scale community mobilization event', 'Community Mobilization', 'South Sudan', 'Major community gathering for project mobilization and awareness raising', 20);
