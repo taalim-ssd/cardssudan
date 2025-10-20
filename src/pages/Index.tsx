@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
 import ImageGallery from "../components/ImageGallery";
 import SouthSudanStories from "../components/SouthSudanStories";
+import ActivitiesGallery from "../components/ActivitiesGallery";
 import { InlineEditableText } from "../components/InlineEditableText";
 import { getStorageImageUrl } from "@/utils/imageUtils";
 const Index = () => {
@@ -112,6 +113,19 @@ const Index = () => {
           </div>
         </div>
       </section>
+
+      {/* Our Work Section */}
+      <section className="py-16 bg-emerald-50">
+        <div className="container mx-auto px-4 text-center">
+          <h2 className="text-4xl font-bold text-gray-800 mb-4">Our Work in Kapoeta East County</h2>
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            Supporting communities through water access, agricultural development, and sustainable programs
+          </p>
+        </div>
+      </section>
+
+      {/* Our Activities Gallery */}
+      <ActivitiesGallery />
 
       {/* Agriculture & Food Security Gallery */}
       <ImageGallery />
